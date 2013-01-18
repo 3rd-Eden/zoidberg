@@ -1,0 +1,30 @@
+{
+  "name": "zoidberg",
+  "version": "0.0.0",
+  "description": "Flow control? Why not zoidberg?",
+  "main": "zoidberg.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "chai": "~1.4.2"
+  },
+  "bundledDependencies": [
+    "mocha"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha $(shell find test -name '*.test.js')"
+  },
+  "repository": "",
+  "keywords": [
+    "flow",
+    "control",
+    "flow control",
+    "async",
+    "zoidberg",
+    "whoopwhoopwhoop"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT"
+}
