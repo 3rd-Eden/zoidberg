@@ -7,14 +7,10 @@
     "test": "test"
   },
   "devDependencies": {
-    "mocha": "~1.8.1",
-    "chai": "~1.4.2"
+    "specify": "~1.1.1"
   },
-  "bundledDependencies": [
-    "mocha"
-  ],
   "scripts": {
-    "test": "./node_modules/.bin/mocha $(shell find test -name '*.test.js')"
+    "test": "node ./test/api.test.js"
   },
   "repository": "",
   "keywords": [
