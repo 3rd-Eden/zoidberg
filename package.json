@@ -10,7 +10,8 @@
     "specify": "~1.1.1"
   },
   "scripts": {
-    "test": "node ./test/api.test.js"
+    "test": "node ./test/api.test.js",
+    "install": "node ./whynotzoidberg.js"
   },
   "repository": "",
   "keywords": [
