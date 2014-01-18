@@ -2,7 +2,7 @@
   "name": "zoidberg",
   "version": "0.0.0",
   "description": "Flow control? Why not zoidberg?",
-  "main": "zoidberg.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
