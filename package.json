@@ -7,7 +7,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "specify": "~1.1.1"
+    "specify": "~1.3.0"
   },
   "scripts": {
     "test": "node ./test/api.test.js",
